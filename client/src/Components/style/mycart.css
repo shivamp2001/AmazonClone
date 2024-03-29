@@ -1,0 +1,162 @@
+.container-mycart{
+    height: auto;
+    width: auto;
+    background-color: rgba(128, 128, 128, 0.256);
+}
+
+.mycartinfo{
+    width:1050px ;
+    height: auto;
+    background-color: white;
+    margin: 20px;
+    position: relative;
+    bottom: 150px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.img-and-proinfo{
+    display: flex;
+    margin-top: 40px;
+}
+
+.mycartinfo h1{
+    font-weight: 400;
+    padding: 20px;
+    font-size: 28px;
+}
+
+.heading-hr{
+    top: -15px;
+    margin-left: 25px;
+    border: 0.2px solid rgba(0, 0, 0, 0.241);
+    width: 950px;
+}
+
+.item-box img{
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.mycart-product-info{
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.mycart-pro-name{
+    width: 600px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mycart-price{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.instack-p{
+    color: #007600;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+a{
+    color: #007185;
+}
+
+.checkbox-text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: -10px;
+}
+
+.mycart-select{
+    width: 66px;
+    position: relative;
+    bottom: 6px;
+    height: 29px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 13px;
+    border: 0.3 px solid black;
+    text-align: center;
+}
+
+.mycart-function{
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.mycart-function span{
+    margin: 0px 10px 0px 10px;
+    color: #007185;
+    cursor: pointer;
+}
+
+.bottom-hr{
+    /* position: absolute;
+    bottom: 355px; */
+    margin-left: 25px;
+    border: 0.2px solid rgba(0, 0, 0, 0.241);
+    width: 950px;
+    top: 20px;
+}
+
+
+.total-section{
+    position: relative;
+    height: 130px;
+    width: 320px;
+    background-color: white;
+    left: 1090px;
+    top: 20px;
+    padding-top: 20px;
+}
+
+.subtotal{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.total-price{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.total-section input{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 3px;
+}
+
+.total-section button{
+    margin-left: 20px;
+    margin-top: 20px;
+    width:280px ;
+    height: 27px;
+    padding: 1px 6px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffd816e0;
+    font-size: 13px;
+}
+
+.total-section button:hover{
+    background-color:rgb(228, 199, 13) ;
+}
+
+.bottom-total{
+    position: relative;
+    left: 700px;
+    font-size: 20px;
+    top: 30px;
+    color: rgba(0, 0, 0, 0.759);
+}

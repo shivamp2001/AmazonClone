@@ -1,0 +1,516 @@
+.payment-container{
+  
+}
+
+.payment-header{
+  /* overflow: hidden; */
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  background-color: aqua;
+  justify-content: space-evenly;
+  background-color: rgba(128, 128, 128, 0.126);
+}
+.payment-logo {
+  /* height: 60px; */
+  width: 110px;
+}
+.payment-logo img{
+    width: 90px;
+    height: 90px;
+}
+
+.payment-heading{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.payment-heading h1{
+  font-size: 28px;
+  font-weight: 400;
+
+}
+
+.lock-icon{
+  font-size: 28px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+/* first part */
+
+/*  first div*/
+.payment-div1{
+  height: 250px;
+  width: 800px;
+  margin-left: 20px;
+  border: 0.1px solid black;
+  border-radius: 8px;
+  margin-top: 14px;
+
+}
+
+.div1-hr{
+  width: 100px;
+  border: 0.1px solid rgba(0, 0, 0, 0.186);
+  top: 5px;
+  margin-left: 19px;
+  width:750px ;
+}
+
+.radio-btn{
+  margin:20px 0px 0px 15px ;
+  background-color: #FCF5EE;
+  height: 60px;
+  border-radius: 6px;
+  width: 95%;
+  border: 1px solid #c4540474;
+}
+.radio-btn input{
+  margin: 5px 0px 0px 10px;
+}
+
+.add-address-btn{
+  margin: 10px 0px 0px 15px;
+  color: rgba(95, 91, 91, 0.208);
+}
+
+.div1-end{
+  background-color: rgba(128, 128, 128, 0.126);
+  height: 31px;
+  padding: 12px 18px 11px 18px;
+  margin-top:47px;
+}
+
+.div1-end button{
+  padding: 6px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ffd814;
+}
+.div1-end button:hover{
+  background-color:rgb(228, 199, 13) ;
+}
+
+
+/* Second div */
+/* payment section contained all divs */
+.payment-div2{
+  height:750px ;
+  width:800px ;
+  /* background-color: #B12704; */
+  margin-top: 14px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border: 0.1px solid black;
+}
+
+.payment-div2 input{
+  width: 234px;
+  height: 23px;
+  position: relative;
+  bottom: 3px;
+  right: 15px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid black;
+
+}
+
+.apply{
+  border-radius: 9px;
+  width:60px ;
+  margin-left: 0px;
+  position: relative;
+  bottom: 3px;
+  border: none;
+  border: 0.1px solid black;
+  background-color:#FFFFFF;
+  height: 29px;
+  padding: 0px 11px 0px 11px;
+
+}
+
+.apply:hover{
+  background-color: whitesmoke;
+}
+.payment-address h3{
+  color: #C45504;
+}
+
+.payment-options{
+  height: 300px;
+  width: 757px;
+  /* background-color: #007185; */
+  margin-left: 17px;
+  margin-top: 15px;
+}
+
+.debitcart-div{
+  height: 120px;
+  width: 100%;
+  border-radius: 7px;
+  /* background-color: #FCF5EE; */
+}
+
+.debitcart-div:hover{
+  border: 0.1px solid #C45504;
+  background-color: #FCF5EE;
+}
+.debitcart-div input{
+  right: 90px;
+  top: 7px;
+  height: 15px;
+}
+.radio-span{
+  position: relative;
+  right: 190px;
+  font-weight: 600;
+  top: 4px;
+  font-size: 14px;
+}
+
+.debit-cards{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.debit-img{
+  margin: 0px 5px 0px 5px;
+  height: 20px;
+  width: 45px;
+  /* border: 0.1px solid black; */
+}
+.debit-img1{
+  height: 20px;
+  width: 40px;
+  position: relative;
+  top: 3px;
+}
+.info{
+  color: #565959;
+  font-size: 12px;
+}
+
+/* debitcart div2 */
+
+.debitcart-div2{
+  height: 90px;
+  width: 100%;
+  /* border: 0.1px solid #C45504; */
+  border-radius: 7px;
+}
+
+.debitcart-div2:hover{
+  background-color: #FCF5EE;
+  
+}
+
+.debitcart-div2 input{
+  right: 90px;
+  top: 12px;
+  height: 15px;
+}
+
+.radio-span-div2{
+  position: relative;
+  right: 190px;
+  font-weight: 600;
+  top: 10px;
+  font-size: 14px;
+}
+
+.debitcart-div2 select{
+  outline: none;
+  position: relative;
+  padding: 6px;
+  border-radius: 7px;
+  right: 270px;
+  top: 40px;
+  background-color: white;
+}
+.debitcart-div2 select:hover{
+  background-color: whitesmoke;
+}
+
+/* debitcard-div3 */
+
+.debitcard-div3{
+  height: 110px;
+  width: 100%;
+  border-radius: 7px;
+  margin-top: 2px;
+  
+}
+.debitcard-div3:hover{
+  border: 0.1px solid #C45504;
+  background-color: #FCF5EE;
+}
+.debitcard-div3 input{
+  right: 90px;
+  top: 7px;
+  height: 15px;
+}
+.debitcard-div3 p{
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.debitcard-div3 button{
+  position: relative;
+  left: 50px;
+  font-size: 13px;
+  width: 60px;
+  height: 29px;
+  top: 7px;
+  background-color: #FFD814;
+  border: none;
+  border: 1px solid #007185;
+  border-radius: 8px;
+  padding: 0px 11px 0px 11px;
+}
+
+.debitcard-div3 button:hover{
+  background-color:rgb(228, 199, 13) ;
+}
+
+/* debitcard-div4 */
+.debitcard-div4{
+  height: 120px;
+  width: 100%;
+  border-radius: 7px;
+  /* margin-top: 2px; */
+
+}
+.debitcard-div4:hover{
+  background-color: #FCF5EE;
+}
+.debitcard-div4 input{
+  right: 90px;
+  top: 10px;
+  height: 15px;
+}
+
+.debitcard-div4 select{
+  outline: none;
+  position: relative;
+  padding: 6px;
+  border-radius: 7px;
+  right: 215px;
+  top: 40px;
+  background-color: white;
+}
+.debitcard-div4 select:hover{
+  background-color: whitesmoke;
+}
+
+/* debitcard-div5 */
+
+.debitcard-div5{
+  height: 80px;
+  width: 100%;
+  border-radius: 7px;
+
+
+}
+.debitcard-div5:hover{
+  background-color: #FCF5EE;
+  border: 0.1px solid #C45504;
+}
+.debitcard-div5 input{
+  right: 90px;
+  top: 10px;
+  height: 15px;
+}
+
+.cash-delivery{
+  position: relative;
+  right: 416px;
+  top: 25px;
+  color: #888888;
+  font-size: 14px;
+}
+
+/*  debitcard div-6 */
+.debitcard-div6{
+  height: 50px;
+  width: 105.6%;
+  position: relative;
+  right: 17px;
+  border-radius: 7px;
+  top: 30px;
+  background-color: rgba(128, 128, 128, 0.126);
+}
+.debitcard-div6 button{
+  font-size: 13px;
+  width: 190px;
+  height: 29px;
+  padding: 0px 11px 0px 10px;
+  border-radius: 7px;
+  outline: none;
+  background-color: #FFD814;
+  border: none;
+  margin-top: 13px;
+  margin-left: 20px;
+}
+.debitcard-div6 button:hover{
+  background-color:rgb(228, 199, 13) ;
+}
+
+
+/* third part Review-items-&-delivery */
+
+.Review-items-and-delivery{
+  height: auto;
+  width: 800px;
+  gap: 20px;
+  border-radius: 8px;
+  /* background-color: #007185; */
+  margin-left: 17px;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+.prime-advatice{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.prime-advatice div{
+  position: relative;
+  left: 120px;
+  width: 640px;
+  bottom: 40px;
+}
+.prime-advatice div{
+  font-weight: 700;
+  font-size: 14px;
+}
+.product-img-info{
+  height: 200px;
+  position: relative;
+  display: flex;
+  bottom: 20px;
+  margin-left: 10px;
+  width: 500px;
+  /* border: 1px solid black; */
+}
+.product-img-info img{
+  height: 170px;
+  width: 160px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.product-informaion{
+  width: 320px;
+  height: 100%;
+  /* border: 1px solid black; */
+
+}
+.information-p{
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+.product-informaion img{
+  height: 18px;
+  width: 66px;
+  position: relative;
+  bottom: 17px;
+  left: 40px;
+}
+
+.product-informaion button{
+border-radius: 12px;
+background-color: white;
+position: relative;
+top: 60px;
+right: 160px;
+font-size: 14px;
+padding: 3px 6px;
+}
+.product-informaion button:hover{
+  background-color: whitesmoke;
+}
+/* second part */
+
+.second-part{
+  display: flex;
+  margin-top: 15px;
+}
+
+.payment-address{
+  height: 300px;
+  width: 800px;
+  /* background-color: aqua; */
+  margin-left: 150px;
+}
+
+.grandtotal{
+  width: 260px;
+  height: 328px;
+  margin-left: 70px;
+  border-radius: 8px;
+  border: 0.1px solid black;
+  margin-top: 10px;
+}
+
+.grandtotal button{
+  height: 32px;
+  border-width: 1px;
+  width: 225px;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: #ffd814;
+}
+
+.grandtotal button:hover{
+  background-color:rgb(228, 199, 13) ;
+}
+
+.payment-hr1{
+  width: 224px;
+  border: 0.1px solid rgba(0, 0, 0, 0.243);
+  top: 40px;
+  margin-left: 15px;
+}
+.payment-hr2{
+  width: 224px;
+  border: 0.1px solid rgba(0, 0, 0, 0.243);
+  top: 10px;
+  margin-left: 15px;
+}
+.p-tag{
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.value1{
+  margin-left: 165px;
+}
+.value2{
+  margin-left: 125px;
+}
+
+.total-price{
+  color: #B12704;
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.cost-calculate{
+  height: 50px;
+  background-color: rgba(128, 128, 128, 0.126);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: 20px;
+  color: #007185;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

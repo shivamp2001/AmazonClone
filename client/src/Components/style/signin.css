@@ -1,0 +1,125 @@
+.signin-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.signin-box{
+    height: 310px;
+    width: 296px;
+    border: 0.1px solid rgba(0, 0, 0, 0.43);
+    padding: 20px 26px 20px 26px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 350px;
+}
+
+.signin-logo{
+    height: 50px;
+    width: 100px;
+    background-image: url('../pages//assets//new_amazon_logo.jpg');
+    background-size: cover;
+    /* margin-top: -60px; */
+}
+
+.signin-box h1{
+    font-weight: 300;
+}
+
+.signin-box p{
+    margin-left: 0px;
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.signin-box input{
+    height: 23px;
+    width: 280px;
+    padding: 3px 7px;
+}
+
+.signin-box button{
+    border: none;
+    outline: none;
+    width: 298px;
+    height: 30px;
+    padding: 3px 7px;
+    background-color: rgb(255, 221, 0);
+    border-radius: 8px;
+    margin-top: 14px;
+    outline: none;
+}
+
+.signin-box button:hover{
+    background-color:rgb(244, 213, 8) ;
+}
+
+.signin-text p{
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 3px;
+}
+
+.signin-text a{
+    color: #0066c0;
+}
+
+.signin-text span{
+    color: #0066c0;
+    font-size: 13px;
+    font-weight: 100;
+    position: relative;
+    top: 24px;
+    left: 3px;
+}
+
+.hr-hr{
+    position: relative;
+    bottom: 320px;
+    font-size: 12px;
+    right: -1px;
+    color: rgba(0, 0, 0, 0.562);
+    
+}
+
+.hr-hr hr{
+    display: inline-block;
+    width: 120px;
+    position: relative;
+    top: -3px;
+    border: 0.1px solid rgba(0, 0, 0, 0.218);
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.hr-hr button{
+    position: absolute;
+    top: 30px;
+    width: 338px;
+    height: 29;
+    right: 5px;
+    padding: 6px 10px 6px 11px ;
+    background-color: white;
+    border-radius: 6px;
+    border: 0.5px solid black;
+    outline: 0;
+    font-size: 13px;
+}
+
+.hr-hr button:hover{
+    background-color:rgba(245, 245, 245, 0.636);
+}
+
+.last-hr hr{
+    position: relative;
+    bottom: 250px;
+    border-top: 10px;
+}
+
+.signin-foot{
+    margin-bottom: 120px;
+}
