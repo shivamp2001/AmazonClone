@@ -6,5 +6,6 @@ user can add product on there my cart section and also can buy product.have sear
 step- 1  first clone the project from GitHub
 
 step-2   goto client Directory using cd client command 
+
          - npm i (install dependencys)
          - run ## npm run 
